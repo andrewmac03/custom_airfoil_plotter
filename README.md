@@ -6,7 +6,7 @@ xfoil_runner is a modified version of xfoil-runner made by JARC99 who's github i
 https://github.com/JARC99/xfoil-runner/tree/main/xfoil_runner
 
 
-To use the airfoil plotter import airfoil from airfoil_plotter
+## To use the airfoil plotter import airfoil from airfoil_plotter
 
 
 call airfoil to generate an airfoil object, Specify the following parameters:
@@ -29,7 +29,7 @@ call airfoil to generate an airfoil object, Specify the following parameters:
 
 
 
-To plot the airfoil call the plot_airfoil method with no arguments
+## To plot the airfoil call the plot_airfoil method with no arguments
 
 
 To export your airfoil to a .txt file call the export_airfoil method with the following arguments:
@@ -39,7 +39,7 @@ To export your airfoil to a .txt file call the export_airfoil method with the fo
 -x_foils=False: if true, the airfoil will be exported in a format best suited for xfoils, if fales the airfoil will be exported to best suit solidworks
 
 
-To run xfoils on your airfoil import run_xfoil from xfoil_runner
+## To run xfoils on your airfoil import run_xfoil from xfoil_runner
 
 
 callrun_xfoil with the following arguments:
