@@ -1,12 +1,16 @@
 # custom_airfoil_plotter
 Used to plot, export, and evaluate the performance of custom, user specified airfoils.
 
+
 xfoil_runner is a modified version of xfoil-runner made by JARC99 who's github is linked below:
 https://github.com/JARC99/xfoil-runner/tree/main/xfoil_runner
 
+
 To use the airfoil plotter import airfoil from airfoil_plotter
 
+
 call airfoil to generate an airfoil object, Specify the following parameters:
+
 -num_points: roughly the number of points along the airfoil's curve (xfoils can only do less than 320 points)
 
 -chord_length: the length from the leading edge to the trailing edge
@@ -24,7 +28,9 @@ call airfoil to generate an airfoil object, Specify the following parameters:
 -TE_sharpness: 1 for a zero thickness TE, and 0 for a 45 degree TE
 
 
+
 To plot the airfoil call the plot_airfoil method with no arguments
+
 
 To export your airfoil to a .txt file call the export_airfoil method with the following arguments:
 
@@ -32,7 +38,9 @@ To export your airfoil to a .txt file call the export_airfoil method with the fo
 
 -x_foils=False: if true, the airfoil will be exported in a format best suited for xfoils, if fales the airfoil will be exported to best suit solidworks
 
+
 To run xfoils on your airfoil import run_xfoil from xfoil_runner
+
 
 callrun_xfoil with the following arguments:
 
@@ -48,6 +56,8 @@ callrun_xfoil with the following arguments:
 
 -n_iter: the number of iterations for the simulation to use
 
+
 x_foils will  create a polar file with your results.
+
 If you call the function as the definition of a variable then it will set the variable to a numpy array with the results
 
